@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://blogs.cappriciosec.com/uploaders/CVE-2018-0296-tool.png" alt="logo">
+  <img src="https://blogs.cappriciosec.com/uploaders/Laravel-Ignition-Rxss-tool.png" alt="logo">
 </div>
 
 
@@ -9,10 +9,10 @@
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![PyPI - Version](https://img.shields.io/pypi/v/CVE-2018-0296)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/CVE-2018-0296)
-![GitHub all releases](https://img.shields.io/github/downloads/Cappricio-Securities/CVE-2018-0296/total)
-<a href="https://github.com/Cappricio-Securities/CVE-2018-0296/releases/"><img src="https://img.shields.io/github/release/Cappricio-Securities/CVE-2018-0296"></a>![Profile_view](https://komarev.com/ghpvc/?username=Cappricio-Securities&label=Profile%20views&color=0e75b6&style=flat)
+![PyPI - Version](https://img.shields.io/pypi/v/laravelignitionrxss)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/laravelignitionrxss)
+![GitHub all releases](https://img.shields.io/github/downloads/Cappricio-Securities/laravelignitionrxss/total)
+<a href="https://github.com/Cappricio-Securities/laravelignitionrxss/releases/"><img src="https://img.shields.io/github/release/Cappricio-Securities/laravelignitionrxss"></a>![Profile_view](https://komarev.com/ghpvc/?username=Cappricio-Securities&label=Profile%20views&color=0e75b6&style=flat)
 [![Follow Twitter](https://img.shields.io/twitter/follow/cappricio_sec?style=social)](https://twitter.com/cappricio_sec)
 <p align="center">
 
@@ -36,17 +36,17 @@
 
    - Install via pip
      - ```bash
-          pip install CVE-2018-0296 
+          pip install laravelignitionrxss 
         ```
    - Run bellow command to check
-     - `CVE-2018-0296 -h`
+     - `laravelignitionrxss -h`
 
 ## Configurations 
 2. We integrated with the Telegram API to receive instant notifications for vulnerability detection.
    
    - Telegram Notification
      - ```bash
-          CVE-2018-0296 --chatid <YourTelegramChatID>
+          laravelignitionrxss --chatid <YourTelegramChatID>
         ```
    - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
 
@@ -55,19 +55,19 @@
    
    - To Check Single URL
      - ```bash
-          CVE-2018-0296 -u http://example.com 
+          laravelignitionrxss -u http://example.com 
         ```
    - To Check List of URL 
       - ```bash
-          CVE-2018-0296 -i urls.txt 
+          laravelignitionrxss -i urls.txt 
         ```
    - Save output into TXT file
       - ```bash
-          CVE-2018-0296 -i urls.txt -o out.txt
+          laravelignitionrxss -i urls.txt -o out.txt
         ```
-   - Want to Learn about [`CVE-2018-0296`](https://blogs.cappriciosec.com/cve/160/%20the%20Achilles)? Then Type Below command
+   - Want to Learn about [`laravelignitionrxss`](https://blogs.cappriciosec.com/cve/162/Laravel%20Ignition's%20XSS%20Vulnerability)? Then Type Below command
       - ```bash
-          CVE-2018-0296 -b
+          laravelignitionrxss -b
         ```
      
 <p align="center">
@@ -81,7 +81,7 @@
 
 ## Working PoC Video
 
-[![asciicast](https://blogs.cappriciosec.com/uploaders/Screenshot%202024-05-29%20at%209.08.02%20AM.png)](https://asciinema.org/a/r6Dvzj4ku7pTxNY8FptA5E7Y9)
+[![asciicast](https://blogs.cappriciosec.com/uploaders/Screenshot%202024-05-29%20at%2010.45.10%20AM.png)](https://asciinema.org/a/rp52UB23dZv3JGkd9zBnhhTB9)
 
 
 
@@ -92,33 +92,32 @@
 
 ```bash
 👋 Hey Hacker
-                                                                             v1.0
-   _______    ________    ___   ____ _______        ____ ___  ____  _____
-  / ____/ |  / / ____/   |__ \ / __ <  ( __ )      / __ \__ \/ __ \/ ___/
- / /    | | / / __/________/ // / / / / __  |_____/ / / /_/ / /_/ / __ \
-/ /___  | |/ / /__/_____/ __// /_/ / / /_/ /_____/ /_/ / __/\__, / /_/ /
-\____/  |___/_____/    /____/\____/_/\____/      \____/____/____/\____/
-
-                              Developed By https://cappriciosec.com
-
+                                                                                                   v1.0
+    __                            __      _             _ __  _                   ____
+   / /___ __________ __   _____  / /     (_)___ _____  (_) /_(_)___  ____        / __ \_  ____________
+  / / __ `/ ___/ __ `/ | / / _ \/ /_____/ / __ `/ __ \/ / __/ / __ \/ __ \______/ /_/ / |/_/ ___/ ___/
+ / / /_/ / /  / /_/ /| |/ /  __/ /_____/ / /_/ / / / / / /_/ / /_/ / / / /_____/ _, _/>  <(__  |__  )
+/_/\__,_/_/   \__,_/ |___/\___/_/     /_/\__, /_/ /_/_/\__/_/\____/_/ /_/     /_/ |_/_/|_/____/____/
+                                        /____/
+                                                            Developed By https://cappriciosec.com
                               
 
-CVE-2018-0296 : Bug scanner for WebPentesters and Bugbounty Hunters 
+laravelignitionrxss : Bug scanner for WebPentesters and Bugbounty Hunters 
 
-$ CVE-2018-0296 [option]
+$ laravelignitionrxss [option]
 
-Usage: CVE-2018-0296 [options]
+Usage: laravelignitionrxss [options]
 ```
 
 
 | Argument | Type     | Description                | Examples |
 | :-------- | :------- | :------------------------- | :------------------------- |
-| `-u` | `--url` | URL to scan | CVE-2018-0296 -u https://target.com |
-| `-i` | `--input` | filename Read input from txt  | CVE-2018-0296 -i target.txt | 
-| `-o` | `--output` | filename Write output in txt file | CVE-2018-0296 -i target.txt -o output.txt |
-| `-c` | `--chatid` | Creating Telegram Notification | CVE-2018-0296 --chatid yourid |
-| `-b` | `--blog` | To Read about CVE-2018-0296 Bug | CVE-2018-0296 -b |
-| `-h` | `--help` | Help Menu | CVE-2018-0296 -h |
+| `-u` | `--url` | URL to scan | laravelignitionrxss -u https://target.com |
+| `-i` | `--input` | filename Read input from txt  | laravelignitionrxss -i target.txt | 
+| `-o` | `--output` | filename Write output in txt file | laravelignitionrxss -i target.txt -o output.txt |
+| `-c` | `--chatid` | Creating Telegram Notification | laravelignitionrxss --chatid yourid |
+| `-b` | `--blog` | To Read about laravelignitionrxss Bug | laravelignitionrxss -b |
+| `-h` | `--help` | Help Menu | laravelignitionrxss -h |
 
 
 
