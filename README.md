@@ -9,10 +9,10 @@
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![PyPI - Version](https://img.shields.io/pypi/v/laravelignitionrxss)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/laravelignitionrxss)
-![GitHub all releases](https://img.shields.io/github/downloads/Cappricio-Securities/laravelignitionrxss/total)
-<a href="https://github.com/Cappricio-Securities/laravelignitionrxss/releases/"><img src="https://img.shields.io/github/release/Cappricio-Securities/laravelignitionrxss"></a>![Profile_view](https://komarev.com/ghpvc/?username=Cappricio-Securities&label=Profile%20views&color=0e75b6&style=flat)
+![PyPI - Version](https://img.shields.io/pypi/v/laravel-ignition-rxss)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/laravel-ignition-rxss)
+![GitHub all releases](https://img.shields.io/github/downloads/Cappricio-Securities/laravel-ignition-rxss/total)
+<a href="https://github.com/Cappricio-Securities/laravel-ignition-rxss/releases/"><img src="https://img.shields.io/github/release/Cappricio-Securities/laravel-ignition-rxss"></a>![Profile_view](https://komarev.com/ghpvc/?username=Cappricio-Securities&label=Profile%20views&color=0e75b6&style=flat)
 [![Follow Twitter](https://img.shields.io/twitter/follow/cappricio_sec?style=social)](https://twitter.com/cappricio_sec)
 <p align="center">
 
@@ -36,17 +36,17 @@
 
    - Install via pip
      - ```bash
-          pip install laravelignitionrxss 
+          pip install laravel-ignition-rxss 
         ```
    - Run bellow command to check
-     - `laravelignitionrxss -h`
+     - `laravel-ignition-rxss -h`
 
 ## Configurations 
 2. We integrated with the Telegram API to receive instant notifications for vulnerability detection.
    
    - Telegram Notification
      - ```bash
-          laravelignitionrxss --chatid <YourTelegramChatID>
+          laravel-ignition-rxss --chatid <YourTelegramChatID>
         ```
    - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
 
@@ -55,19 +55,19 @@
    
    - To Check Single URL
      - ```bash
-          laravelignitionrxss -u http://example.com 
+          laravel-ignition-rxss -u http://example.com 
         ```
    - To Check List of URL 
       - ```bash
-          laravelignitionrxss -i urls.txt 
+          laravel-ignition-rxss -i urls.txt 
         ```
    - Save output into TXT file
       - ```bash
-          laravelignitionrxss -i urls.txt -o out.txt
+          laravel-ignition-rxss -i urls.txt -o out.txt
         ```
-   - Want to Learn about [`laravelignitionrxss`](https://blogs.cappriciosec.com/cve/162/Laravel%20Ignition's%20XSS%20Vulnerability)? Then Type Below command
+   - Want to Learn about [`laravel-ignition-rxss`](https://blogs.cappriciosec.com/cve/162/Laravel%20Ignition's%20XSS%20Vulnerability)? Then Type Below command
       - ```bash
-          laravelignitionrxss -b
+          laravel-ignition-rxss -b
         ```
      
 <p align="center">
@@ -102,22 +102,22 @@
                                                             Developed By https://cappriciosec.com
                               
 
-laravelignitionrxss : Bug scanner for WebPentesters and Bugbounty Hunters 
+laravel-ignition-rxss : Bug scanner for WebPentesters and Bugbounty Hunters 
 
-$ laravelignitionrxss [option]
+$ laravel-ignition-rxss [option]
 
-Usage: laravelignitionrxss [options]
+Usage: laravel-ignition-rxss [options]
 ```
 
 
 | Argument | Type     | Description                | Examples |
 | :-------- | :------- | :------------------------- | :------------------------- |
-| `-u` | `--url` | URL to scan | laravelignitionrxss -u https://target.com |
-| `-i` | `--input` | filename Read input from txt  | laravelignitionrxss -i target.txt | 
-| `-o` | `--output` | filename Write output in txt file | laravelignitionrxss -i target.txt -o output.txt |
-| `-c` | `--chatid` | Creating Telegram Notification | laravelignitionrxss --chatid yourid |
-| `-b` | `--blog` | To Read about laravelignitionrxss Bug | laravelignitionrxss -b |
-| `-h` | `--help` | Help Menu | laravelignitionrxss -h |
+| `-u` | `--url` | URL to scan | laravel-ignition-rxss -u https://target.com |
+| `-i` | `--input` | filename Read input from txt  | laravel-ignition-rxss -i target.txt | 
+| `-o` | `--output` | filename Write output in txt file | laravel-ignition-rxss -i target.txt -o output.txt |
+| `-c` | `--chatid` | Creating Telegram Notification | laravel-ignition-rxss --chatid yourid |
+| `-b` | `--blog` | To Read about laravel-ignition-rxss Bug | laravel-ignition-rxss -b |
+| `-h` | `--help` | Help Menu | laravel-ignition-rxss -h |
 
 
 
