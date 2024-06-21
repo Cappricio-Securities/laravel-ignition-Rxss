@@ -12,7 +12,7 @@
 
 
 class Data:
-    blog = 'https://blogs.cappriciosec.com/blog/137/laravel-ignition-Rxss'
+    blog = 'https://blogs.cappriciosec.com/blog/162/laravel-ignition-Rxss'
     api = 'https://api.cappriciosec.com/Telegram/cappriciosecbot.php'
     config_path = '~/.config/cappriciosec-tools/cappriciosec.yaml'
     payloadurl = 'https://raw.githubusercontent.com/Cappricio-Securities/PayloadAllTheThings/main/laravel-ignition-Rxss.txt'
